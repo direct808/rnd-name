@@ -1,0 +1,27 @@
+{
+  "name": "rnd-name",
+  "version": "1.0.1",
+  "main": "dist/rnd-name.js",
+  "types": "dist/rnd-name.d.ts",
+  "author": "direct808 <direct808@yandex.ru>",
+  "repository": "direct808/rnd-name",
+  "keywords": [
+    "random name"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "husky": "^3.0.4",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.6.2"
+  }
+}

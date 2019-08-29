@@ -1,0 +1,13 @@
+{
+  "name": "rnd-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "direct808 <direct808@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
